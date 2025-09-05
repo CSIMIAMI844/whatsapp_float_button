@@ -1,0 +1,36 @@
+<odoo>
+    <template id="whatsapp_float" inherit_id="website.layout">
+        <xpath expr="//body" position="inside">
+            <a href="https://wa.me/56956753509" target="_blank"
+               class="whatsapp-float">
+                <img src="/whatsapp_float_button/static/src/img/whatsapp.svg"
+                     alt="WhatsApp" width="50" height="50"/>
+            </a>
+        </xpath>
+    </template>
+
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="whatsapp assets">
+        <xpath expr="." position="inside">
+            <style>
+                .whatsapp-float {
+                    position: fixed;
+                    width: 60px;
+                    height: 60px;
+                    bottom: 20px;
+                    right: 20px;
+                    background-color: #25d366;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+                    z-index: 9999;
+                }
+                .whatsapp-float img {
+                    width: 35px;
+                    height: 35px;
+                }
+            </style>
+        </xpath>
+    </template>
+</odoo>
