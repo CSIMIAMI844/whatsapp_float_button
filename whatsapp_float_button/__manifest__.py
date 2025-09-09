@@ -1,8 +1,8 @@
 {
     'name': 'WhatsApp Float Button',
     'version': '18.0.1.0.0',
-    'summary': 'Botón flotante de WhatsApp en todo el sitio web',
-    'description': 'Agrega un botón flotante de WhatsApp en la esquina inferior derecha en todo el sitio web.',
+    'summary': 'Boton flotante de WhatsApp en todo el sitio web',
+    'description': 'Agrega un boton flotante de WhatsApp en la esquina inferior derecha en todo el sitio web.',
     'category': 'Website',
     'author': 'Francisco Toro',
     'website': 'https://your-website-or-github-link.com',
