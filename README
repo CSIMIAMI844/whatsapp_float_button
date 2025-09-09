@@ -1,0 +1,82 @@
+# WhatsApp Float Button - Odoo 18
+
+Este módulo agrega un **botón flotante de WhatsApp** en la esquina inferior derecha de todo el sitio web en Odoo.  
+El botón abre un chat de WhatsApp con el número configurado en los ajustes de Odoo.  
+
+---
+
+## ✨ Características
+
+- Botón flotante fijo en la esquina inferior derecha.
+- Compatible con escritorio y móviles (tamaño adaptado automáticamente).
+- Icono oficial de WhatsApp en formato SVG.
+- Configuración sencilla del número de WhatsApp desde **Ajustes → Configuración de WhatsApp**.
+- Texto de ayuda para ingresar el número en formato internacional.
+
+## Captura de pantalla
+
+![WhatsApp Float Button Screenshot](./static/description/screenshot.png)
+
+*(Reemplaza este archivo con tu propio screenshot)*
+
+---
+
+## ⚙️ Instalación
+
+1. Copiar el módulo a la carpeta `addons/custom/` de tu instancia de Odoo.
+2. Actualizar la lista de aplicaciones en Odoo.
+3. Instalar el módulo **WhatsApp Float Button**.
+
+---
+
+## 🔧 Configuración
+
+1. Ir a **Ajustes → Configuración de WhatsApp**.  
+2. Ingresar el número en formato internacional, por ejemplo:  (sin + ni espacios)
+
+3. Guardar los cambios.
+
+El botón flotante aparecerá automáticamente en todo el sitio web.
+
+---
+
+## 📂 Estructura del módulo
+
+whatsapp_float_button/
+│
+├── init.py
+├── manifest.py
+├── models/
+│ └── res_config_settings.py
+├── views/
+│ ├── res_config_settings_view.xml
+│ └── whatsapp_template.xml
+├── static/
+│ └── src/
+│ └── css/
+│ └── whatsapp.css
+├── i18n/
+│ └── es.po
+└── README.md
+
+
+
+---
+
+## 🌍 Traducciones
+
+El módulo soporta traducciones.  
+Actualmente disponible en **Español** (`es.po`), **Inglés** (`en.po`), **Alemán** (`de.po`) y **Francés** (`fr.po`). Puedes añadir más traducciones en la carpeta `i18n/`.
+
+---
+
+## 👨‍💻 Autor
+
+- **Francisco**  
+- Desarrollado con ❤️ para proyectos en Odoo 18  
+
+---
+
+## 📜 Licencia
+
+Este módulo se distribuye bajo la licencia **LGPL-3.0**.
