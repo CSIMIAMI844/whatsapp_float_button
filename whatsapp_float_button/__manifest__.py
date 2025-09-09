@@ -26,7 +26,7 @@
         'static/description/screenshot2.png',
         'static/description/thumbnail.png',
         'static/description/banner2.png',
-    ].
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,
