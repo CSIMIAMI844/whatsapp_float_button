@@ -28,6 +28,6 @@
         'static/description/banner2.png',
     ],
     'installable': True,
-    'application': False,
+    'application': True,
     'auto_install': False,
 }
