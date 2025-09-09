@@ -1,0 +1,72 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_float_button
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.2alpha1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-08 17:48+0000\n"
+"PO-Revision-Date: 2025-09-09 13:02-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.7\n"
+
+#. module: whatsapp_float_button
+#: model_terms:ir.ui.view,arch_db:whatsapp_float_button.res_config_settings_view_form_inherit_whatsapp
+msgid "56912345678"
+msgstr "56912345678"
+
+#. module: whatsapp_float_button
+#: model:ir.model,name:whatsapp_float_button.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: whatsapp_float_button
+#: model_terms:ir.ui.view,arch_db:whatsapp_float_button.res_config_settings_view_form_inherit_whatsapp
+msgid "Configuración de WhatsApp"
+msgstr "Configuración de WhatsApp"
+
+#. module: whatsapp_float_button
+#: model:ir.model.fields,field_description:whatsapp_float_button.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nombre para mostrar"
+
+#. module: whatsapp_float_button
+#: model_terms:ir.ui.view,arch_db:whatsapp_float_button.whatsapp_float
+msgid "Escríbenos"
+msgstr "Escríbenos"
+
+#. module: whatsapp_float_button
+#: model:ir.model.fields,field_description:whatsapp_float_button.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: whatsapp_float_button
+#: model:ir.model.fields,help:whatsapp_float_button.field_res_config_settings__whatsapp_number
+msgid "Ingrese el Número en formato internacional, e.g. 56912345678"
+msgstr "Ingrese el Número en formato internacional, e.g. 56912345678"
+
+#. module: whatsapp_float_button
+#: model_terms:ir.ui.view,arch_db:whatsapp_float_button.res_config_settings_view_form_inherit_whatsapp
+msgid "Número de WhatsApp"
+msgstr "Número de WhatsApp"
+
+#. module: whatsapp_float_button
+#: model_terms:ir.ui.view,arch_db:whatsapp_float_button.res_config_settings_view_form_inherit_whatsapp
+msgid ""
+"Número para el chat de WhatsApp. Usa el formato internacional, por ejemplo: "
+"56912345678 (sin + ni espacios)."
+msgstr ""
+"Número para el chat de WhatsApp. Usa el formato internacional, por ejemplo: "
+"56912345678 (sin + ni espacios)."
+
+#. module: whatsapp_float_button
+#: model:ir.model.fields,field_description:whatsapp_float_button.field_res_config_settings__whatsapp_number
+msgid "WhatsApp Number"
+msgstr "Número de WhatsApp"
