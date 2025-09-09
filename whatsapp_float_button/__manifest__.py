@@ -19,6 +19,13 @@
             'whatsapp_float_button/static/src/css/whatsapp.css',
         ],
     },
+    	'static/images/banner.png',
+        'static/description/icon.png',
+        'static/description/screenshot.png',
+        'static/description/screenshot2.png',
+        'static/description/thumbnail.png',
+        'static/description/banner2.png',
+
     'installable': True,
     'application': False,
     'auto_install': False,
