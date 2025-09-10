@@ -6,14 +6,14 @@
         <field name="arch" type="xml">
             <xpath expr="//block[@id='website_settings']" position="after">
                 <block string="WhatsApp" id="whatsapp_settings">
-                    <h2 t-translate="yes">Configuración de WhatsApp</h2>
+                    <h2>Configuración de WhatsApp</h2>
                     <div class="row mt16 o_settings_container">
                         <div class="col-12 col-lg-6">
                             <div class="o_setting_box">
                                 <div class="row align-items-center">
                                     <!-- Etiqueta -->
                                     <div class="col-5">
-                                        <label for="whatsapp_number" t-translate="yes" string="Número de WhatsApp"/>
+                                        <label for="whatsapp_number" string="Número de WhatsApp"/>
                                     </div>
                                     <!-- Campo -->
                                     <div class="col-7">
@@ -21,7 +21,7 @@
                                     </div>
                                 </div>
                                 <!-- Texto de ayuda -->
-                                <div class="text-muted mt8" t-translate="yes">
+                                <div class="text-muted mt8">
                                     Número para el chat de WhatsApp. Usa el formato internacional, por ejemplo: 56912345678 (sin + ni espacios).
                                 </div>
                             </div>
